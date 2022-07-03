@@ -1,0 +1,9 @@
+font-face 
+    {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap; 
+    src: local("Gotham"), 
+    url("/style/fonts/Gotham-Medium.woff") format("woff");
+    }
