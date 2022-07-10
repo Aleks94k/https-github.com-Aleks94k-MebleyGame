@@ -1,9 +1,135 @@
-font-face 
-    {
+font-face {
     font-family: "Gotham";
     font-style: normal;
     font-weight: 400 700;
     font-display: swap; 
     src: local("Gotham"), 
     url("/style/fonts/Gotham-Medium.woff") format("woff");
-    }
+}
+body{
+    font-family: "Gotham" , sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../image/car.png) center no-repeat;
+    background-size: cover;
+}
+
+.intro_iner{
+    width: 100%;
+    max-width: 1028px;
+    margin: 0 auto;
+    
+}
+.intro_title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+.intro_suptitle{
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_logo{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.header_iner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}   
+.text_logo{
+    display: inline-block;
+    vertical-align: top;
+    margin:  0 15px;
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+}
+nav{
+    font-size: 14px;
+
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin:  0 15px;
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 18.5px 40px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: linear-gradient(267.28deg, #7B61FF 24%, #AA82FF 73.95%);
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+    
+}
+.slider{
+    width: 100%;
+    max-width: 1028px;
+    margin:  0 auto;
+    justify-content: space-between;
+}
+
+.section{
+    background: rgb(25, 20, 70);
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
