@@ -23,21 +23,22 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-
-
-.intro{
+.header{
+    float: left;
+    box-sizing: border-box;
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url(../image/car.png) center no-repeat;
+    height: 800px;
+    text-align: center;
+    background: url(../image/car.png)  center no-repeat;
     background-size: cover;
+    margin: 0 auto;
+    
 }
-
 .intro_iner{
+    float: left;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 1028px;
+    text-align: center;
     margin: 0 auto;
     
 }
@@ -53,30 +54,28 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-transform: uppercase;
 }
-.header{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
+
+    
+   
+
 .header_logo{
+    float: left;
+    width: 20%;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     color: white;
     position: relative;
+    margin: 0 auto 180px;
 }
 .header_iner{
-    display: flex;
-    justify-content: space-between;
+    float: right;
+    width: 100%;
     align-items: center;
     padding-top: 25px;
+    margin: 0 auto;
 }   
 .text_logo{
-    display: inline-block;
-    vertical-align: top;
     margin:  0 15px;
     position: relative;
     margin-left: 20px;
@@ -90,10 +89,9 @@ nav{
 
 }
 .nav_link{
-    display: inline-block;
-    vertical-align: top;
+    width: 100%;
+    height: 40px;
     margin:  0 15px;
-    position: relative;
     margin-left: 20px;
     color: white;
     text-decoration: none;
@@ -117,22 +115,28 @@ nav{
     border-radius: 100px;
     
 }
-.slider{
-    width: 100%;
-    max-width: 1028px;
-    margin: 0 auto 180px;
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 
 .section{
     background: rgb(25, 23, 46);
+    margin: 0 auto;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    background-size: cover;
+    float: left;
+    text-align: center;
+}
+.slider{
     
+    margin: 0 auto 180px;
+    float: left;
+    box-sizing: border-box;
+    
+    width: 100%;
+    
+}
+.section_header{
+    width: 532px;
+    margin: 0 auto ;
+    margin-bottom: 80px;
 }
 .section_suptitle{
     font-size: 14px;
@@ -143,28 +147,25 @@ nav{
 .section_title{
     font-size: 32px;
     line-height: 40;
-    font-weight: 700;
-    
+    font-weight: 700; 
     line-height: 1.1;
 }
-.section_header{
-    width: 100%;
-    max-width: 532px;
-    margin: 0 auto ;
-    margin-bottom: 80px;
-    text-align: center;
-    
 
-}
 .promo{
-    display: flex;
-    justify-content: space-between;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 .section_promo{
-    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
     height: 364px;
-    max-width: 300px;
     color: black;
+    margin: 0 auto 100px;
+    
 }
 .img_promo{
     width: 250;
@@ -180,8 +181,6 @@ nav{
     
 }
 .promo_text{
-width: 250px;
-height: 63px;
 font-weight: 400;
 font-size: 14px;
 line-height: 21px;
@@ -190,24 +189,20 @@ color: #DEE1FF;
 
 
 .game{
-    display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
+    float: left;
     background: url(/image/fongame.png) #181335;
-    width: 100%;
-    
-    margin: 0 auto;
+    width: 100%;   
+    margin: 0 auto ;
 }
 .game_suptitle{
     text-align: center;
-    margin-top: 80px;
+    
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
 }
 .info_game{
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
     margin: 0 auto;
 
 }
@@ -220,11 +215,8 @@ color: #DEE1FF;
     text-decoration: none;
 }
 
-.block_game{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    
-
+.price_game{
+    float: left;
+    width: 25%;
+    box-sizing: border-box; 
 }
