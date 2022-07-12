@@ -48,10 +48,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 .intro_suptitle{
-font-size: 14px;
-font-weight: 700;
-text-align: center;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
 }
 .header{
     width: 100%;
@@ -120,16 +120,111 @@ nav{
 .slider{
     width: 100%;
     max-width: 1028px;
-    margin:  0 auto;
+    margin: 0 auto 180px;
+    display: flex;
     justify-content: space-between;
+    
 }
 
 .section{
-    background: rgb(25, 20, 70);
+    background: rgb(25, 23, 46);
     width: 100%;
-    height: 100vh;
-    display: inline-block;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
     background-size: cover;
+    
+}
+.section_suptitle{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F68E5F;
+}
+.section_title{
+    font-size: 32px;
+    line-height: 40;
+    font-weight: 700;
+    
+    line-height: 1.1;
+}
+.section_header{
+    width: 100%;
+    max-width: 532px;
+    margin: 0 auto ;
+    margin-bottom: 80px;
+    text-align: center;
+    
+
+}
+.promo{
+    display: flex;
+    justify-content: space-between;
+}
+.section_promo{
+    width: 30%;
+    height: 364px;
+    max-width: 300px;
+    color: black;
+}
+.img_promo{
+    width: 250;
+    height: 155;
+    margin: 0 auto 30px;
+}
+.promo_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #DEE1FF;
+    
+}
+.promo_text{
+width: 250px;
+height: 63px;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #DEE1FF;
+}
+
+
+.game{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    background: url(/image/fongame.png) #181335;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.game_suptitle{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+.info_game{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.a_game{
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.block_game{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+
 }
